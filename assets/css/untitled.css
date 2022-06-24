@@ -1,6 +1,6 @@
 #promotext {
   padding: 20px;
-  background-color: rgb(0,0,0,0.3);
+  background-color: rgb(0, 0, 0, 0.3);
   border-radius: 40px;
 }
 
@@ -9,3 +9,78 @@
   width: 40px;
 }
 
+.modal-header {
+  align-items: flex-start;
+}
+
+.modal-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.modal-header .close {
+  padding: 1rem 1rem;
+  margin: -1rem -1rem -1rem auto;
+}
+
+button.close {
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+  appearance: none;
+}
+
+.close {
+  float: right;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .5;
+}
+
+.close:hover {
+  color: #000;
+  text-decoration: none;
+  opacity: .75;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.input-group-prepend {
+  margin-right: -1px;
+  display: flex;
+}
+
+.input-group-text {
+  margin-bottom: 0;
+  color: #495057;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+i {
+  width: 14px;
+}
+
+input[type="radio"] {
+  position: relative;
+  top: 1px;
+}
+
+.ml-3 {
+  margin-left: 1rem !important;
+}
+
+.modal-footer {
+  background-color: #f4f4f4;
+  justify-content: center;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
