@@ -62,10 +62,6 @@ button.close {
   border-bottom-right-radius: 0;
 }
 
-i {
-  width: 14px;
-}
-
 input[type="radio"] {
   position: relative;
   top: 1px;
