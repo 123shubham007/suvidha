@@ -37,7 +37,7 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="donate.html">Donate</a></li>
                     <li class="nav-item"><a class="nav-link" href="joinus.html">Join Us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#portfolio">Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#programs">Events</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.html">about</a></li>
                     <li class="nav-item"><button class="btn btn-primary" type="button" data-bs-toggle="modal"
@@ -46,101 +46,6 @@
             </div>
         </div>
     </nav>
-
-    <!-- register form start -->
-
-    <div class="modal fade" id="register-modal" tabindex="-1" role="dialog" aria-labelledby="register-heading"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="register-heading">Register Your Self With Us!</h5>
-                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-
-                <div class="modal-body">
-                    <form id="register-form" class="form" role="form" method="post">
-                        <div class="input-group form-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text">
-                                    <i class="fas fa-user"></i>
-                                </span>
-                            </div>
-                            <input type="text" class="form-control" name="full_name" placeholder="Full Name"
-                                maxlength="30" required>
-                        </div>
-
-                        <div class="input-group form-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text">
-                                    <i class="fas fa-phone-alt"></i>
-                                </span>
-                            </div>
-                            <input type="number" class="form-control" name="phone" placeholder="Phone Number"
-                                maxlength="10" minlength="10" required>
-                        </div>
-
-                        <div class="input-group form-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text">
-                                    <i class="fas fa-envelope"></i>
-                                </span>
-                            </div>
-                            <input type="email" class="form-control" name="email" placeholder="Email" required>
-                        </div>
-                        <div class="row">
-                            <div class="input-group form-group" style="width: 50%;">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text">
-                                        <i class="fas fa-lock"></i>
-                                    </span>
-                                </div>
-                                <input type="password" class="form-control" name="password" placeholder="Password"
-                                    minlength="6" required>
-                            </div>
-
-                            <div class="col-4 input-group form-group" style="width: 50%;">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text">
-                                        <i class="fas fa-lock"></i>
-                                    </span>
-                                </div>
-                                <input type="password" class="form-control" name="confirm_password"
-                                    placeholder="Confirm Password" minlength="6" required>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <span>I'm a</span>
-                            <input type="radio" class="ml-3" id="gender-male" name="gender" value="male" />
-                            <label for="gender-male">
-                                Male
-                            </label>
-                            <input type="radio" class="ml-3" id="gender-female" name="gender" value="female" />
-                            <label for="gender-female">
-                                Female
-                            </label>
-                        </div>
-
-                        <div class="form-group">
-                            <button type="submit" class="btn btn-block btn-primary"
-                                style="border-radius:5px;">Register</button>
-                        </div>
-                    </form>
-                </div>
-
-                <div class="modal-footer">
-                    <span>Already Joined!
-                        <a href="#" data-dismiss="modal" data-bs-toggle="modal" data-bs-target="#login-modal">Login
-                            Now!</a>
-                    </span>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- register form end -->
 
     <!-- login modal start -->
 
@@ -157,7 +62,7 @@
 
                 <div class="modal-body">
                     <form id="login-form" class="form" role="form" method="post">
-                        <!-- <form id="login-form" class="form" role="form" method="post" action="api/login_submit.php"> -->
+                        <!-- action="api/login_submit.php"> -->
                         <div class="input-group form-group">
                             <div class="input-group-prepend">
                                 <span class="input-group-text">
@@ -186,9 +91,8 @@
 
                 <div class="modal-footer">
                     <span>
-                        <a href="#" data-dismiss="modal" data-bs-toggle="modal" data-bs-target="#register-modal">Click
-                            here</a>
-                        to register a new account
+                        <a href="joinus.html">Click here</a>
+                        to Join US!
                     </span>
                 </div>
             </div>
@@ -230,7 +134,7 @@
             </div>
         </div>
     </section>
-    <section id="services">
+    <section id="programs">
         <div class="container" id="programs">
             <div class="row">
                 <div class="col-lg-12 text-center">
